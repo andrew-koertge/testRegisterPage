@@ -1,0 +1,83 @@
+body {
+    background-color: #55a5da;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#navbar {
+  list-style-type: none;
+  height: 55px;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 10px;
+  box-shadow: 0px 5px 5px gray;
+  width: 100%;
+}
+
+#navbar li {
+    margin: 10px;
+    float: right;
+    display:inline;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: dodgerblue;
+    padding-bottom: 5px;
+}
+
+#navbar a {
+    color:white;
+    display:block;
+    text-decoration: none;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+h1 {
+    text-align: left;
+    padding-left: 35px;
+    padding-top: 10px;
+}
+
+#formbox {
+    position: fixed;
+    top: 25%;
+    left: 40%;
+    right: 60%;
+    width: 20%;
+    height: 45%;
+    text-align: center;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px gray;
+}
+
+#formbox input {
+    display: block;
+    position: relative;
+    border-radius: 5px;
+    border-color: lightgray;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin: auto;
+    width: 80%;
+    height: 30px;
+}
+
+#formbox input placeholder {
+    color: lightgray;
+}
+
+#submit {
+    background-color: dodgerblue;
+    color: white;
+    text-align: center;
+}
+
+#logos img{
+   width: 35px;
+   height: 35px; 
+   margin-left: 5px;
+   margin-right: 5px;
+   padding-top: 10px;
+   border-radius: 50%;
+}
